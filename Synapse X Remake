@@ -1,6 +1,5 @@
--- Synapse X Remake made by BOO_TELEKINESIS AND ice146782 AND ihatecheater3944_lol AND SYNAPSE480 AND Karkujr AND iwannatrythisgamehm AND ice2019in2015_2 AND AOC_CREATER AND KORY1435 AND KORY1435 AND kgzwtti AND ninja_light55
-
-local synversion = "2.23.11"
+--Synapse Remake
+local synversion = " AOC Remake"
 
 -- this shit function makes my script fucked
 --[[pcall(function()
@@ -304,7 +303,7 @@ G2L["1e"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["1e"]["TextSize"] = 15;
 G2L["1e"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["1e"]["Size"] = UDim2.new(0, 646, 0, 27);
-G2L["1e"]["Text"] = "Synapse X - "..synversion;
+G2L["1e"]["Text"] = "Synapse X  "..synversion;
 G2L["1e"]["Name"] = [[TitleSynapse]];
 G2L["1e"]["BackgroundTransparency"] = 1;
 
@@ -3057,7 +3056,7 @@ local function C_49()
 	end)
 	buttons.Execute.MouseButton1Up:Connect(function()
 		if not injected then
-			title.Text = "Synapse X - "..synversion.." (not injected! press attach)"
+			title.Text = "Synapse X - "..synversion.." (not injected! press attach!!!)"
 		elseif injected == true then
 
 			local textbox = GetTextbox()
@@ -3190,7 +3189,7 @@ local function C_71()
 		for i,v in pairs(yes:GetChildren()) do
 			if v.Visible then
 				if v.Name == "Dex" then
-				loadstring(game:HttpGet("https://raw.githubusercontent.com/infyiff/backup/main/dex.lua"))()
+				loadstring(game:HttpGet("https://raw.githubusercontent.com/LorekeeperZinnia/Dex/master/main.lua"))()
 			elseif v.Name == "RemoteSpy" then
 				loadstring(game:HttpGet("https://raw.githubusercontent.com/infyiff/backup/main/SimpleSpyV3/main.lua"))()
 			elseif v.Name == "UnnamedESP" then
@@ -3217,7 +3216,7 @@ local function C_83()
 	local stuff  =script.Parent
 
 	stuff.Buttons.Discord.MouseButton1Up:Connect(function()
-		setclipboard("XYFXYNmG4D")
+		setclipboard("discord.gg/UmQkTjq6jJ")
 	end)
 	stuff.Buttons.Rejoin.MouseButton1Up:Connect(function()
 		game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId)
